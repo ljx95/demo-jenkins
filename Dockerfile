@@ -10,7 +10,7 @@
 #CMD /app/runboot.sh
 FROM java:8-jre
 
-ADD ./target/demo-jenkins-0.0.1-SNAPSHOT.jar /app/
+ADD demo-jenkins-0.0.1-SNAPSHOT.jar /app/
 CMD ["java", "-Xmx200m", "-jar", "/app/demo-jenkins-0.0.1-SNAPSHOT.jar"]
 
 EXPOSE 8888
