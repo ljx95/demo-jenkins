@@ -48,7 +48,6 @@
                     <skipDockerBuild>false</skipDockerBuild>
                     <resources>
                         <resource>
-                            <targetPath>/</targetPath>
                             <directory>${project.build.directory}</directory>
                             <include>${project.name}-${project.version}.jar</include>
                         </resource>
