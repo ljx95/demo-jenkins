@@ -9,7 +9,7 @@ echo "删除容器"
 docker rm demo-jenkins
 echo "删除镜像"
 # 删除镜像
-docker rmi demo-jenkins/demo:1.0
+#docker rmi demo-jenkins/demo:1.0
 echo "构建镜像"
 # 构建镜像 . 号表示在当前目录构建
 docker build -t demo-jenkins/demo:1.0 .
